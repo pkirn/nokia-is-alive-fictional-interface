@@ -115,6 +115,43 @@ body {
     transform: rotate(2deg);
     animation: move 0.2s infinite alternate
 }
+.square-11 {
+    width: 150px;
+    height: 100px;
+    background: linear-gradient(90deg, rgba(0,0,0,0.6) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.5844712885154062) 100%);
+    top: 800px;
+    left: 275px;
+    border-radius: 5px;
+    animation: move-4 0.5s infinite alternate
+}
+
+.square-12 {
+    width: 150px;
+    height: 100px;
+    background: linear-gradient(90deg, rgba(0,0,0,0.6) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.5844712885154062) 100%);
+    top: 900px;
+    left: 275px;
+    border-radius: 5px;
+    animation: move-4 0.2s infinite alternate
+}
+.square-13 {
+    width: 150px;
+    height: 100px;
+    background: linear-gradient(90deg, rgba(0,0,0,0.6) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.5844712885154062) 100%);
+    top: 800px;
+    left: 425px;
+    border-radius: 5px;
+    animation: move-5 0.1s infinite alternate
+}
+.square-14 {
+    width: 150px;
+    height: 100px;
+    background: linear-gradient(90deg, rgba(0,0,0,0.6) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.5844712885154062) 100%);
+    top: 900px;
+    left: 425px;
+    border-radius: 5px;
+    animation: move-5 0.4s infinite alternate
+}
 
 @keyframes move {
     from { 
@@ -127,6 +164,29 @@ body {
 @keyframes move-2 {
     from { 
         left: 425px
+    } to { 
+        left: 430px;
+    }
+}
+
+@keyframes move-3 {
+    from { 
+        top: 650px
+    } to { 
+        top: 655px;
+    }
+}
+@keyframes move-4 {
+    from { 
+        left: 275px
+    } to { 
+        left: 280px;
+    }
+}
+
+@keyframes move-5 {
+    from { 
+        left: 425pxpx
     } to { 
         left: 430px;
     }
