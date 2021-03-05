@@ -1,0 +1,133 @@
+/* welcome to the style file of this project! */
+
+* {
+    transition: all ease .2s ;
+    position: absolute;
+}
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.square{
+    width: 490px;
+    height: 1000px;
+    background-color: rgb(98, 101, 134);
+    border: 5px solid rgb(0, 0, 0);
+    top: 100px;
+    left: 100px;
+    border-radius: 50px;
+}
+.square:hover{
+    transform: rotate(15deg);
+}
+
+.square-2{
+    width: 450px;
+    height: 900px;
+    background-color: rgb(172, 173, 175);
+    top: 150px;
+    left: 125px;
+    border-radius: 30px;
+}
+
+.square-3 {
+    width: 400px;
+    height: 250px;
+    background-color: rgb(90, 124, 105);
+    top: 350px;
+    left: 150px;
+    border-radius: 10px;
+}
+
+.square-4 {
+    width: 150px;
+    height: 75px;
+    background: linear-gradient(90deg, rgba(0,0,0,0.6) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.5844712885154062) 100%);
+    top: 650px;
+    left: 125px;
+    border-radius: 10px;
+    animation: move 0.3s infinite alternate
+}
+
+.square-5 {
+    width: 150px;
+    height: 75px;
+    background: linear-gradient(90deg, rgba(0,0,0,0.6) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.5844712885154062) 100%);
+    top: 725px;
+    left: 125px;
+    border-radius: 10px;
+    animation: move 0.4s infinite alternate
+}
+
+.square-6 {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(90deg, rgba(0,0,0,0.6) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.5844712885154062) 100%);
+    top: 650px;
+    left: 275px;
+    border-radius: 10px;
+}
+
+.square-7 {
+    width: 150px;
+    height: 75px;
+    background: linear-gradient(90deg, rgba(0,0,0,0.6) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.5844712885154062) 100%);
+    top: 650px;
+    left: 425px;
+    border-radius: 10px;
+    animation: move-2 0.2s infinite alternate
+}
+
+.square-8 {
+    width: 150px;
+    height: 75px;
+    background: linear-gradient(90deg, rgba(0,0,0,0.6) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.5844712885154062) 100%);
+    top: 725px;
+    left: 425px;
+    border-radius: 10px;
+    animation: move-2 0.3s infinite alternate
+}
+
+.square-9 {
+    width: 150px;
+    height: 100px;
+    background: linear-gradient(90deg, rgba(0,0,0,0.6) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.5844712885154062) 100%);
+    top: 800px;
+    left: 125px;
+    border-radius: 5px;
+    transform: rotate(2deg);
+    animation: move 0.5s infinite alternate
+}
+
+.square-10 {
+    width: 150px;
+    height: 100px;
+    background: linear-gradient(90deg, rgba(0,0,0,0.6) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.5844712885154062) 100%);
+    top: 900px;
+    left: 125px;
+    border-radius: 5px;
+    transform: rotate(2deg);
+    animation: move 0.2s infinite alternate
+}
+
+@keyframes move {
+    from { 
+        left: 120px
+    } to { 
+        left: 130px;
+    }
+}
+
+@keyframes move-2 {
+    from { 
+        left: 425px
+    } to { 
+        left: 430px;
+    }
+}
